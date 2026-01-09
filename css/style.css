@@ -15,7 +15,7 @@ header {
 
 /* nav */
 nav {
-   
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,7 @@ nav {
 #banner {
     background-image: url(../images/assets/hero-bg.png);
     height: 674px;
-   
+
     padding: 115px 120px 179px 120px;
     background-repeat: no-repeat;
     text-align: center;
@@ -146,7 +146,7 @@ nav {
 /* Features */
 
 #Features {
-   
+
     background-color: #FFFFFF;
     margin-top: 0px;
     padding: 0 120px;
@@ -199,53 +199,119 @@ nav {
 
 /* The Solution */
 
-#Solution{
+#Solution {
     background-color: #FFFFFF;
     padding: 120px;
     border: 1px solid black;
 }
 
-.Solution-continer{
+.Solution-continer {
     display: flex;
     gap: 60px;
-        border: 1px solid black;
+    border: 1px solid black;
 
 }
-.Solution-info{
+
+.Solution-info {
     margin: 120px 0;
     text-align: left;
-        border: 1px solid black;
+    border: 1px solid black;
 
 }
 
-.Solution-info-1 .Solution-info-p{
+.Solution-info-1 .Solution-info-p {
     color: #469165;
     line-height: 20px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.Solution-info-1 h2{
+.Solution-info-1 h2 {
     color: #001931;
     line-height: auto;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 16px;
 }
-.Solution-info-1 .Solution-info-p-2{
+
+.Solution-info-1 .Solution-info-p-2 {
     color: #627382;
     line-height: 20px;
     font-size: 16px;
     margin-bottom: 16px;
 }
 
-.Solution-info-2 div{
+.Solution-info-2 div {
     display: flex;
     gap: 6px;
 }
 
-.Solution-info-2 div p{
-   color: #001931;
-   line-height: 20px;
-   font-weight: 500;
+.Solution-info-2 div p {
+    color: #001931;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#early-access {
+    background-color: #FFFFFF;
+    padding: 0 120px 120px 120px;
+    text-align: center;
+}
+
+.early-container {
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+
+.early-header h1 {
+    color: #001931;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.early-header p {
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+
+.early-fotter .btn{
+      margin-bottom: 16px;
+}
+
+.early-fotter p{
+      margin-bottom: 16px;
+      color: #627382;
+}
+
+footer{
+    background-color: #001931;
+    padding: 120px 120px 0 120px;
+}
+.footer-header{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 80px;
+}
+
+.footer hr{
+    margin-bottom: 30px;
+    background-color: #000000;
+    color: #000;
+
+}
+
+.footer-copyright{
+     padding-bottom: 30px;
+     text-align: center;
+     color: #FAFAFA;
+     line-height: 24px;
+     font-size: 16px;
+}
+
+.Social{
+    color: #FFFFFF;
 }
