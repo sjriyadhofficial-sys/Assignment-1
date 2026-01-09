@@ -239,3 +239,13 @@ nav {
     margin-bottom: 16px;
 }
 
+.Solution-info-2 div{
+    display: flex;
+    gap: 6px;
+}
+
+.Solution-info-2 div p{
+   color: #001931;
+   line-height: 20px;
+   font-weight: 500;
+}
