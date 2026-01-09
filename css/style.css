@@ -33,6 +33,15 @@ nav {
     line-height: 152%;
 }
 
+
+.menu li a{
+    color: #000000;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #743b1a;
+    text-decoration: none;
+}
 .fonts-Inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -62,7 +71,7 @@ nav {
     padding: 12px 16px;
     font-weight: 600;
     color: #070101;
-    background-color: #05f7e2;
+    background-color: rgba(8, 143, 8, 0.555);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -200,9 +209,39 @@ nav {
     align-items: center;
 }
 
+
+
+
+
+
+.btn-flex:hover {
+
+    height: 44px;
+    gap: 10px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #070101;
+    background-color: rgba(5, 107, 5, 0.562);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 .btn-2 i {
     margin-right: 10px;
 
+}
+
+.btn-2:hover {
+    display: flex;
+    border: 2px solid rgba(255, 255, 255, 0.548);
+    border-radius: 4px;
+    width: 198px;
+    height: 44px;
+    background-color: transparent;
+    padding: 16px;
+    color: #ffffff79;
+    align-items: center;
+    cursor: pointer;
 }
 
 .button {
