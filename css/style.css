@@ -15,7 +15,7 @@ header {
 
 /* nav */
 nav {
-    max-width: 1600px;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,9 +53,9 @@ nav {
 /* banner */
 
 #banner {
-    background-image: url(/images/assets/hero-bg.png);
+    background-image: url(../images/assets/hero-bg.png);
     height: 674px;
-    max-width: 1600px;
+   
     padding: 115px 120px 179px 120px;
     background-repeat: no-repeat;
     text-align: center;
@@ -146,7 +146,7 @@ nav {
 /* Features */
 
 #Features {
-    max-width: 1600px;
+   
     background-color: #FFFFFF;
     margin-top: 0px;
     padding: 0 120px;
@@ -202,8 +202,24 @@ nav {
 #Solution{
     background-color: #FFFFFF;
     padding: 120px;
+    border: 1px solid black;
 }
 
 .Solution-continer{
     display: flex;
+    gap: 60px;
+        border: 1px solid black;
+
+}
+.Solution-info{
+    margin: 120px 0;
+    text-align: left;
+        border: 1px solid black;
+
+}
+
+.Solution-info-1 .Solution-info-p{
+    color: #469165;
+    line-height: 20px;
+    font-weight: 500;
 }
