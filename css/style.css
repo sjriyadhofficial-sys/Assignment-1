@@ -19,7 +19,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 120px;
+    padding: 10px;
 }
 
 .menu {
@@ -48,6 +49,23 @@ nav {
     background-color: #469165;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+.btn:hover {
+
+    height: 44px;
+    gap: 10px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #070101;
+    background-color: #05f7e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 /* banner */
@@ -56,7 +74,7 @@ nav {
     background-image: url(../images/assets/hero-bg.png);
     height: 674px;
 
-    padding: 115px 120px 179px 120px;
+
     background-repeat: no-repeat;
     text-align: center;
     margin: 0 auto;
@@ -66,13 +84,30 @@ nav {
     background-color: #FFFFFF;
 
     width: 229px;
-    text-align: center;
-    border-radius: 1000px;
+
+    border-radius: 100px;
 
     padding: 5px;
 
     margin-bottom: 16px;
+    display: flex;
+    text-align: center;
 }
+
+.banner-Fockus .dot {
+
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    font-size: x-large;
+    color: #df0f00;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-right: 7px;
+    box-shadow: 0px 2px 10px #469165;
+
+}
+
 
 .banner-Fockus p {
     color: #469165;
@@ -128,14 +163,12 @@ nav {
 }
 
 .btn-2 {
-    margin: 2444px solid #FFFFFF;
+    margin: 2px solid #FFFFFF;
     border-radius: 4px;
     width: 198px;
     background-color: transparent;
-
     padding: 16px;
     text-align: center;
-
 }
 
 .btn-2 img {
@@ -178,23 +211,31 @@ nav {
 
 .Features-card {
     background-color: #FFFFFF;
-    padding: 24px;
-    box-shadow: 0 0 8px 0 #0000064f;
+    padding: 64px 24px;
+    box-shadow: 0 0 8px 0 #00000628;
     border-radius: 8px;
+    width: 322px;
+
 }
 
 .Features-card img {
     background-color: #F95555;
-    padding: 24px;
-
+    padding: 16px;
     border-radius: 100px;
+
 }
 
 .Features-card h2 {
     color: #001931;
-    padding: 24px;
+    padding-bottom: 16px;
     font-weight: 600;
     border-radius: 100px;
+}
+
+.Features-card p {
+    color: #627382;
+
+    line-height: 20px;
 }
 
 /* The Solution */
@@ -275,40 +316,41 @@ nav {
     line-height: 24px;
 }
 
-.early-fotter .btn{
-      margin-bottom: 16px;
+.early-fotter .btn {
+    margin-bottom: 16px;
 }
 
-.early-fotter p{
-      margin-bottom: 16px;
-      color: #627382;
+.early-fotter p {
+    margin-bottom: 16px;
+    color: #627382;
 }
 
-footer{
+footer {
     background-color: #001931;
     padding: 120px 120px 0 120px;
 }
-.footer-header{
+
+.footer-header {
     display: flex;
-   justify-content: space-between;
-   margin-bottom: 80px;
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
-.footer hr{
+.footer hr {
     margin-bottom: 30px;
     background-color: #000000;
     color: #000;
 
 }
 
-.footer-copyright{
-     padding-bottom: 30px;
-     text-align: center;
-     color: #FAFAFA;
-     line-height: 24px;
-     font-size: 16px;
+.footer-copyright {
+    padding-bottom: 30px;
+    text-align: center;
+    color: #FAFAFA;
+    line-height: 24px;
+    font-size: 16px;
 }
 
-.Social{
+.Social {
     color: #FFFFFF;
 }
