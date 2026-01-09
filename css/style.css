@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+
+}
+
+.logo {
+    width: 139px;
+    height: 60px;
+}
+
+/* nav */
+nav {
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+}
+
+.fonts-Inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.btn {
+
+    height: 44px;
+    gap: 10px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+}
+
+/* banner */
+
+#banner {
+    background-image: url(/images/assets/hero-bg.png);
+    height: 674px;
+    max-width: 1600px;
+    padding: 115px 120px 179px 120px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-Fockus {
+    background-color: #FFFFFF;
+
+    width: 229px;
+    text-align: center;
+    border-radius: 1000px;
+
+    padding: 5px;
+
+    margin-bottom: 16px;
+}
+
+.banner-Fockus p {
+    color: #469165;
+    font-weight: 500;
+}
+
+.banner-content h1 {
+    color: #FFFFFF;
+    opacity: 90%;
+    font-size: 72px;
+}
+
+.banner-content h2 {
+    color: #30B868;
+    font-weight: bold;
+    opacity: 0.9;
+    font-size: 72px;
+    margin-bottom: 16px;
+
+
+}
+
+.banner-content .banner-text {
+    color: #FFFFFF;
+
+
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 1360px;
+    margin-bottom: 32px;
+
+
+
+}
+
+.banner-content {
+    max-width: 1360px;
+    padding: 51px 295px 76px;
+
+}
+
+.banner-content .btn {
+    align-items: center;
+
+    margin-right: 16px;
+    width: 251px;
+
+}
+
+.banner-content .btn img {
+    align-items: center;
+    text-align: center;
+}
+
+.btn-2 {
+    margin: 2444px solid #FFFFFF;
+    border-radius: 4px;
+    width: 198px;
+    background-color: transparent;
+
+    padding: 16px;
+    text-align: center;
+
+}
+
+.btn-2 img {
+    margin-right: 10px;
+
+}
+
+/* Features */
+
+#Features {
+    max-width: 1600px;
+    background-color: #FFFFFF;
+    margin-top: 0px;
+    padding: 0 120px;
+    text-align: center;
+}
+
+.seaction-heading {
+    padding-top: 50px;
+}
+
+.seaction-heading h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.seaction-heading p {
+    font-size: 20px;
+    color: #627382;
+
+}
+
+.Features-box {
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+}
+
+.Features-card {
+    background-color: #FFFFFF;
+    padding: 24px;
+    box-shadow: 0 0 8px 0 #0000064f;
+    border-radius: 8px;
+}
+
+.Features-card img {
+    background-color: #F95555;
+    padding: 24px;
+
+    border-radius: 100px;
+}
+
+.Features-card h2 {
+    color: #001931;
+    padding: 24px;
+    font-weight: 600;
+    border-radius: 100px;
+}
+
+/* The Solution */
+
+#Solution{
+    background-color: #FFFFFF;
+    padding: 120px;
+}
+
+.Solution-continer{
+    display: flex;
+}
