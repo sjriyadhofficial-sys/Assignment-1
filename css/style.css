@@ -222,4 +222,20 @@ nav {
     color: #469165;
     line-height: 20px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
+
+.Solution-info-1 h2{
+    color: #001931;
+    line-height: auto;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+.Solution-info-1 .Solution-info-p-2{
+    color: #627382;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
