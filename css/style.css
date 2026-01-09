@@ -202,20 +202,17 @@ nav {
 #Solution {
     background-color: #FFFFFF;
     padding: 120px;
-    border: 1px solid black;
 }
 
 .Solution-continer {
     display: flex;
     gap: 60px;
-    border: 1px solid black;
 
 }
 
 .Solution-info {
     margin: 120px 0;
     text-align: left;
-    border: 1px solid black;
 
 }
 
